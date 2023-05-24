@@ -1,0 +1,118 @@
+<!DOCTYPE html> 
+<html> 
+<head>
+<meta name="Join Us"> 
+<link rel="stylesheet" href="Main.css">
+</head>
+
+<body class="join-us-body">
+
+<div class="navbar">
+  <a href="Home.html">Home</a>
+  <a href="OurStaff.HTML">Our Staff</a>
+  <a href="Courses.HTML">Courses</a>
+  <a href="JobDescription.HTML">Job Description</a>
+  <a class="active" href="JoinUs.HTML"><b>Join Us</b></a>
+</div>
+
+ <a href="Home.html"><img src="Logo.png" alt="Logo" class="logo bottom-right"></a>
+ 
+<h1 class="application-heading">Application Form</h1>
+
+<div class="section-left" id="section-left-JU">
+  <div class="form-container">
+    <div class="form-row">
+      <div class="input-container">
+        <label for="full-name">Full Name:</label>
+        <div class="name-inputs">
+          <input type="text" id="forename" placeholder="Forename">
+          <input type="text" id="surname" placeholder="Surname">
+        </div>
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="input-container">
+        <label for="date-of-birth">Date of Birth:</label>
+        <div class="date-input">
+          <input type="date" id="date-of-birth">
+        </div>
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="input-container">
+        <label for="email">Email:</label>
+        <div class="email-input">
+          <input type="email" id="email" placeholder="Email Address">
+        </div>
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="input-container">
+        <label for="phone">Phone Number:</label>
+        <div class="phone-inputs">
+          <input type="text" id="area-code" placeholder="Area Code">
+          <input type="text" id="phone-number" placeholder="Phone Number">
+        </div>
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="input-container">
+        <label for="current-address">Current Address:</label>
+        <div class="address-inputs">
+          <input type="text" id="street-address" placeholder="Street Address">
+          <input type="text" id="postcode" placeholder="Postcode">
+        </div>
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="input-container">
+        <div class="address-inputs">
+          <input type="text" id="state" placeholder="State/Province">
+          <input type="text" id="city" placeholder="City">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section-right" id="section-right-JU">
+  <div class="form-row">
+    <div class="input-container">
+      <label for="position">Position Applying:</label>
+      <div class="position-input">
+        <select id="position" name="position">
+          <option value="Web Developer">Web Developer</option>
+          <option value="Project Manager">Project Manager</option>
+          <option value="UX designer/Graphic designer">UX designer/Graphic designer</option>
+          <option value="Programmer">Programmer</option>
+        </select>
+      </div>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="input-container">
+      <label for="cv">Upload your CV/Resume:</label>
+      <div class="file-input">
+        <input type="file" id="upload-file" class="file-input">
+        <label for="upload-file" class="file-label">Upload a file</label>
+        <span class="file-status">No file selected</span>
+      </div>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="input-container">
+      <label for="start-date">Start Date:</label>
+      <div class="date-input">
+        <input type="text" id="start-date" placeholder="DD/MM/YY">
+      </div>
+    </div>
+  </div>
+  <div class="form-row">
+    <button type="submit" class="submit-button">Apply</button>
+  </div>
+</div>
+
+
+</body> 
+ 
+</html>
