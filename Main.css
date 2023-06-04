@@ -279,7 +279,7 @@ body {
 }
 
 .courses-container {
-  position: fixed;
+  position: flex;
   left: 0;
   right: 0;
   bottom: 0;
@@ -289,6 +289,7 @@ body {
   align-items: flex-end;
   margin: 50px auto;
   height: 200px;
+  margin-top: 25%;
 }
 
 .scroll-box {
@@ -766,3 +767,4 @@ select:focus option {
 .position-input {
   margin-bottom: 10px;
 }
+
