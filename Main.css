@@ -50,7 +50,7 @@ body {
 
     .centered-button {
       position: fixed;
-      top: 61%;
+      top: 59%;
       left: 50%;
       transform: translate(-50%, -50%);
       background-color: white;
