@@ -650,7 +650,7 @@ input[type="date"]::placeholder {
 input[type="text"]:focus + input[type="text"],
 input[type="email"]:focus + input[type="email"],
 input[type="date"]:focus + input[type="date"] {
-  background-color: white;
+  background-color: none;
   color: #202020;
 }
 
